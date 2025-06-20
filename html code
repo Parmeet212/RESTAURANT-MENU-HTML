@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Restaurant Menu </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: white;
+    }
+    #header-img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    article {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+    }
+    article img {
+      width: 100%;
+      max-width: 300px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    form input[type="number"] {
+      width: 50px;
+    }
+    form label {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+
+<body>
+ <div style="text-align: center;">
+<header style="background-color: #444; color: white; text-align: center; padding: 20px;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Pizza_baking_in_Wood-fired_oven.jpg"
+alt="Header Image"
+id="header-img"
+/>
+<h1> Foodie Moodie </h1>
+<nav>
+ <a href="#menu">Menu</a>
+ <a href="#Order-Now">Order Now</a>
+</nav>
+</header>
+<br> <br>
+<main>
+ <section id="menu">
+ <h2> What to Order? </h2>
+ <article> 
+ <img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Pizza_Margherita_stu_spivack.jpg"
+alt="Magrita-pizza"
+style="display: inline-block; border-radius: 10px; width: 300px;"
+/>
+ <h3> Magrita Pizza </h3>
+ <p>Cheesy tasty pizza with one of the best chess pull, offers a taste your toung shall never forget<br>
+ giving you the authantic taste striaght from italy, and experince you shall remeber<br>
+ <h4><i>$5.99</i></h4></p>
+</article>
+<br>
+<article>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Pizza_capricciosa.jpg/1024px-Pizza_capricciosa.jpg"
+alt="Pizza capricciosa"
+style="display: inline-block;border-radius: 10px;width:300px;"
+/>
+<h3> Pizza Capricciosa </h3>
+<p> Pizza capricciosa is a style of pizza in Italian cuisine prepared with mozzarella cheese, prosciutto,
+<br>mushrooms (usually champignons), green and black olives, artichokes, and tomatoes.<br>
+<h4><i>$8.99</i></h4></p>
+</article>
+
+<br>
+<article>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Colorado_Pizza.jpg/250px-Colorado_Pizza.jpg"
+alt="Colorado-style-pizza"
+style="display: inline-block;border-radius: 10px;width:300px;"
+/>
+<h3> Colorado Style Pizza </h3>
+<p> Colorado-style pizza, also called Colorado pizza or Colorado mountain pie, is a style of pizza made
+<br> with a characteristically thick, braided crust topped with heavy amounts of sauce and cheese.<br>
+<h4><i>$9.99</i></h4></p>
+
+</article>
+</section>
+
+<section id="Order-Now">
+<h2> Order Now </h2>
+<from>
+<label for="Magrita-Pizza">Magrita Pizza Qnty:</label>
+<input type="number" id="Magrita-Pizza" name="Magrita-Pizza-qnty" min="0" max="9" oninput="this.value = Math.min(this.max, Math.max(this.min, this.value));" />
+
+<br>
+
+<label for="Pizza-capricciosa">Pizza Capricciosa Qnty:</label>
+<input type="number" id="Pizza-Capricciosa" name="Pizza-Capricciosa-qnty" min="0" max="9" oninput="this.value = Math.min(this.max, Math.max(this.min, this.value));" />
+
+<br>
+
+<label for="Colorado-Style-Pizza">Colorado Style Pizza Qnty:</label>
+<input type="number" id="Colorado-Style-Pizza" name="Colorado-Style-Pizza-qnty" min="0" max="9" oninput="this.value = Math.min(this.max, Math.max(this.min, this.value));" />
+
+<br>
+<br>
+  <h3><label for="requests">Special Requests:</label></h3>
+        <textarea id="requests" name="requests" rows="3" cols="25" placeholder="Any dietary preferences or instructions?"></textarea>
+<br><br>
+        <input type="submit" value="Checkout" />
+      </form>
+    </section>
+  </main>
+
+<footer style="background-color: #444; color: white; text-align: center; padding: 12px;">
+    <p>Made with love by Parmeet 💖</p>
+  </footer>
+
+</div>
+</body>
+</head>
+</html>
