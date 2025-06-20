@@ -8,15 +8,15 @@ Welcome to Foodie Moodie, a simple, beginner-friendly HTML and CSS project that 
 
 This project demonstrates how to:
 
-Structure an HTML document for a restaurant menu.
+- Structure an HTML document for a restaurant menu.
 
-Use basic and advanced CSS styling techniques.
+- Use basic and advanced CSS styling techniques.
 
-Display multiple food items with descriptions and pricing.
+- Display multiple food items with descriptions and pricing.
 
-Create a clean, scrollable UI with a header, menu, and an order form.
+- Create a clean, scrollable UI with a header, menu, and an order form.
 
-Incorporate images, navigation links, and user input fields.
+- Incorporate images, navigation links, and user input fields.
 
 # 💡 Features
 
@@ -24,11 +24,11 @@ Incorporate images, navigation links, and user input fields.
 
 # 🧱 Tech Stack
 
-HTML5
+- HTML5
 
-CSS3 (embedded style tag)
+- CSS3 (embedded style tag)
 
-No external libraries or frameworks (lightweight & beginner-safe)
+- No external libraries or frameworks (lightweight & beginner-safe)
 
 # 🖼️ Screenshots
 
@@ -43,11 +43,11 @@ Users can select the quantity of each dish and enter special dietary requests or
 
 # 🚀 How to Run
 
-Clone or download this repository.
+1. Clone or download this repository.
 
-Open index.html in your browser.
+2. Open index.html in your browser.
 
-View the menu and try the form inputs.
+3. View the menu and try the form inputs.
 
 # 📂 File Structure
 ![image](https://github.com/user-attachments/assets/9a816647-ae64-4671-8572-8707e2b3d366)
