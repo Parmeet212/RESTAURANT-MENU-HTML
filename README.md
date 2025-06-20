@@ -1,4 +1,4 @@
-#🍕 Foodie Moodie – Restaurant Menu HTML Project
+# 🍕 Foodie Moodie – Restaurant Menu HTML Project
 
 Welcome to Foodie Moodie, a simple, beginner-friendly HTML and CSS project that creates a visually appealing restaurant menu webpage. This project is ideal for those who are learning web development and want to showcase a themed, responsive layout for a digital restaurant menu.
 
